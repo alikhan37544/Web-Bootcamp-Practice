@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms demo</title>
+  </head>
+
+  <body>
+    <h1>Forms demo</h1>
+
+    <form action="/tacos">
+      <button type="button">PLEASE do NOT submit the form</button>
+      <p>
+        <label for="username">Enter a Username: </label>
+        <input
+          type="text"
+          placeholder="username"
+          ,
+          id="username"
+          name="username"
+        />
+      </p>
+      <button>This is the middle</button>
+      <p>
+        <label for="password">Enter your password</label>
+        <input type="password" placeholder="password" , id="password" name="password" />
+      </p>
+      <p>
+        <label for="color">Select your color</label>
+        <input type="color" , id="color" />
+      </p>
+      <p>
+        <label for="number">Enter a number</label>
+        <input type="number" placeholder="Enter a number" , id="number" />
+      </p>
+      <button>This is to submit the form with a button</button>
+      <p>this is the default</p>
+      <input type="submit" value="And this one is an input with type submit" />
+    </form>
+  </body>
+</html>
